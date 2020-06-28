@@ -1,0 +1,525 @@
+{
+    "name": "首页配置文件",
+    "action": "portal/home",
+    "description": "首页模板文件",
+    "order": 6.0,
+    "more": {
+        "vars": {
+            "seoTitle": {
+                "title": "seo title",
+                "value": "",
+                "type": "text",
+                "tip": "title",
+                "rule": {
+                    "require": true
+                }
+            },
+            "seoDescription": {
+                "title": "seo Description",
+                "value": "",
+                "type": "text",
+                "tip": "Description",
+                "rule": {
+                    "require": true
+                }
+            },
+            "seoKeywords": {
+                "title": "seo Keywords",
+                "value": "",
+                "type": "text",
+                "tip": "Keywords",
+                "rule": {
+                    "require": true
+                }
+            }
+        },
+        "widgets": {
+            "carousel": {
+                "title": "轮播图组件",
+                "display": "1",
+                "vars": {
+                    "items": {
+                        "title": "轮播图组件",
+                        "value": [
+                            {
+                                "title": "title",
+                                "image": "http://demo.tonpal.com/WMTB20200017/assets/picture/banner01.jpg",
+                                "link": "//www.baidu.com"
+                            },
+                            {
+                                "title": "title",
+                                "image": "http://demo.tonpal.com/WMTB20200017/assets/picture/banner02.jpg",
+                                "link": "//www.baidu.com"
+                            },
+                            {
+                                "title": "title",
+                                "image": "http://demo.tonpal.com/WMTB20200017/assets/picture/banner02.jpg",
+                                "link": ""
+                            }
+                        ],
+                        "type": "array",
+                        "item": {
+                            "title": {
+                                "title": "标题",
+                                "value": "",
+                                "type": "text",
+                                "tip": "图片alt",
+                                "rule": {
+                                    "require": true
+                                }
+                            },
+                            "image": {
+                                "title": "轮播图片",
+                                "value": "",
+                                "type": "image",
+                                "tip": "轮播图片",
+                                "rule": {
+                                    "require": true
+                                }
+                            },
+                            "link": {
+                                "title": "跳转链接",
+                                "value": "",
+                                "type": "text",
+                                "tip": "请填写对应链接"
+                            }
+                        },
+                        "tip": "这是轮播图组件",
+                        "maxNumber": 5,
+                        "rule": {
+                            "require": true
+                        }
+                    }
+                }
+            },
+            
+            "hotProduct": {
+                "title": "热门产品",
+                "display": "1",
+                "vars": {
+                    "bigtitle": {
+                        "title": "标题",
+                        "value": "HOT",
+                        "type": "text",
+                        "tip": "请输入标题",
+                        "rule": {
+                            "require": true
+                        }
+                    },
+                    "smalltitle": {
+                        "title": "标题",
+                        "value": "IN+<br>CHINA<br>HK",
+                        "type": "text",
+                        "tip": "请输入标题",
+                        "rule": {
+                            "require": true
+                        }
+                    },
+                    "defaulttitle": {
+                        "title": "标题",
+                        "value": "PRODUCTS",
+                        "type": "text",
+                        "tip": "请输入标题",
+                        "rule": {
+                            "require": true
+                        }
+                    },
+                    "productlefttitle": {
+                        "title": "首页product左边图片标题",
+                        "value": "Soap Dish / Basket",
+                        "type": "text",
+                        "tip": "请输入标题",
+                        "rule": {
+                            "require": true
+                        }
+                    },
+                    "leftintroduce": {
+                        "title": "首页product左边图片描述",
+                        "value": "1.Ususally suit for bathroom<br>2.You can buy single products also the whole series.Series for 6 pcs,it include Robe Hook,Tumbler Holder,Soap Holder,Towel Ring,Paper Holder,Towel Bar.<br>3.Series for 7 pcs,the products in 6 pcs series plus glass shelf.<br>4.High Quality Zinc Built We will promise about our quality,please buy with",
+                        "type": "text",
+                        "tip": "请输入标题",
+                        "rule": {
+                            "require": true
+                        }
+                    },
+                    "productrighttitle": {
+                        "title": "首页product右边图片标题",
+                        "value": "Paper Holder",
+                        "type": "text",
+                        "tip": "请输入标题",
+                        "rule": {
+                            "require": true
+                        }
+                    },
+                    "rightintroduce": {
+                        "title": "首页product右边图片描述",
+                        "value": "1.Ususally suit for bathroom<br>2.You can buy single products also the whole series.Series for 6 pcs,it include Robe Hook,Tumbler Holder,Soap Holder,Towel Ring,Paper Holder,Towel Bar.<br>3.Series for 7 pcs,the products in 6 pcs series plus glass shelf.<br>4.High Quality Zinc Built We will promise about our quality,please buy with",
+                        "type": "text",
+                        "tip": "请输入标题",
+                        "rule": {
+                            "require": true
+                        }
+                    },
+                    "imageleft": {
+                        "title": "左边image图片",
+                        "value": "http://demo.tonpal.com/WMTB20200017/assets/picture/product_01.jpg",
+                        "type": "image",
+                        "tip": ""
+                    },
+                    "imageright": {
+                        "title": "右边image图片",
+                        "value": "http://demo.tonpal.com/WMTB20200017/assets/picture/product_02.jpg",
+                        "type": "image",
+                        "tip": ""
+                    },
+                    "items": {
+                        "title": "热门产品列表",
+                        "value": [
+                            {
+                                "title": "Unmaned drone with camera 01",
+                                "image": "http://wp.io/wp-content/themes/WMTB20200017/assets/picture/index_pd04.jpg",
+                                "link": "/",
+                                "alt":""
+                            },
+                            {
+                                "title": "Delivery drone with the cardboard box on white background",
+                                "image": "/wp-content/themes/WMTB20200017/assets/picture/index_pd02.jpg",
+                                "link": "/",
+                                "alt":""
+                            },
+                            {
+                                "title": "Unmaned drone with camera 03",
+                                "image": "/wp-content/themes/WMTB20200017/assets/picture/index_pd03.jpg",
+                                "link": "",
+                                "alt":""
+                            },
+                            {
+                                "title": "Delivery drone with the cardboard box on white background",
+                                "image": "/wp-content/themes/WMTB20200017/assets/picture/index_pd04.jpg",
+                                "link": "/",
+                                "alt":""
+                            }
+                        ],
+                        "type": "array",
+                        "item": {
+                            "title": {
+                                "title": "标题",
+                                "value": "",
+                                "type": "text",
+                                "tip": "请填写标题",
+                                "rule": {
+                                    "require": true
+                                }
+                            },
+                            "alt": {
+                                "title": "alt",
+                                "value": "",
+                                "type": "text",
+                                "tip": "请填写alt",
+                                "rule": {
+                                    "require": true
+                                }
+                            },
+                            "image": {
+                                "title": "图片",
+                                "value": "",
+                                "type": "image",
+                                "tip": "",
+                                "rule": {
+                                    "require": true
+                                }
+                            },
+                            "link": {
+                                "title": "链接",
+                                "value": "",
+                                "type": "text",
+                                "tip": "请填入相应链接",
+                                "rule": {
+                                    "require": true
+                                }
+                            }
+                        },
+                        "tip": "建议最少四组数据",
+                        "maxNumber": 8,
+                        "rule": {
+                            "require": true
+                        }
+                    }
+                }
+            },
+            "modularOne": {
+                "title": "底部模块",
+                "display": "1",
+                "vars": {
+                    
+                    "title": {
+                        "title": "标题",
+                        "value": "Projeto",
+                        "type": "text",
+                        "tip": "一句话",
+                        "rule": {
+                            "require": true
+                        }
+                    },
+                    "link": {
+                        "title": "链接",
+                        "value": "",
+                        "type": "text",
+                        "tip": "请填入相应链接",
+                        "rule": {
+                            "require": true
+                        }
+                    },
+                   
+                    "items": {
+                        "title": "底部轮播图下图片",
+                        "value": [
+                            {
+                                "alt": "",
+                                "image": "http://demo.tonpal.com/WMTB20200017/assets/picture/promote01.jpg",
+                                "link": "/"
+                            },
+                            {
+                                "alt": "",
+                                "image": "http://demo.tonpal.com/WMTB20200017/assets/picture/promote02.jpg",
+                                "link": "/"
+                            },
+                            {
+                                "alt": "",
+                                "image": "http://demo.tonpal.com/WMTB20200017/assets/picture/promote03.jpg",
+                                "link": "/"
+                            }
+                        ],
+                        "type": "array",
+                        "item": {
+                            "alt": {
+                                "title": "alt",
+                                "value": "",
+                                "type": "text",
+                                "tip": "请填写alt",
+                                "rule": {
+                                    "require": true
+                                }
+                            },
+                            "image": {
+                                "title": "图片",
+                                "value": "",
+                                "type": "image",
+                                "tip": "建议2:1的图片",
+                                "rule": {
+                                    "require": true
+                                }
+                            },
+                            "link": {
+                                "title": "链接",
+                                "value": "",
+                                "type": "text",
+                                "tip": "请填入相应链接",
+                                "rule": {
+                                    "require": true
+                                }
+                            }
+                        },
+                        "tip": "建议最少四组数据",
+                        "maxNumber": 8,
+                        "rule": {
+                            "require": true
+                        }
+                    },
+                    "subitems": {
+                        "title": "底部轮播图",
+                        "value": [
+                            {
+                                "alt": "",
+                                "image": "http://demo.tonpal.com/WMTB20200017/assets/picture/promote_bn02.jpg",
+                                "link": "/"
+                            },
+                            {
+                                "alt": "",
+                                "image": "http://demo.tonpal.com/WMTB20200017/assets/picture/promote_bn01.jpg",
+                                "link": "/"
+                            }
+                        ],
+                        "type": "array",
+                        "item": {
+                            "alt": {
+                                "title": "alt",
+                                "value": "",
+                                "type": "text",
+                                "tip": "请填写alt",
+                                "rule": {
+                                    "require": true
+                                }
+                            },
+                            "image": {
+                                "title": "图片",
+                                "value": "",
+                                "type": "image",
+                                "tip": "",
+                                "rule": {
+                                    "require": true
+                                }
+                            },
+                            "link": {
+                                "title": "链接",
+                                "value": "",
+                                "type": "text",
+                                "tip": "请填入相应链接",
+                                "rule": {
+                                    "require": true
+                                }
+                            }
+                        },
+                        "tip": "建议最少四组数据",
+                        "maxNumber": 8,
+                        "rule": {
+                            "require": true
+                        }
+                    }
+                }
+            },
+            
+            "about": {
+                "title": "模块二",
+                "display": "1",
+                "vars": {
+                    "title": {
+                        "title": "标题",
+                        "value": "COMPANY PROFILE",
+                        "type": "text",
+                        "tip": "eg:title",
+                        "rule": {
+                            "require": true
+                        }
+                    },
+                    "subtitle": {
+                        "title": "标题",
+                        "value": "CAVOLI SANITARY WARE CO.,LTD",
+                        "type": "text",
+                        "tip": "eg:副标题",
+                        "rule": {
+                            "require": true
+                        }
+                    },
+                    
+                    "desc": {
+                        "title": "描述",
+                        "value": "The company has thousands of new products, with the classical and romantic and modern pop elements of East and West, with the designer's unique design concept, leading design standards, superb production processes, strong production capacity, affordable price to become the domestic industrial products after the show.",
+                        "type": "textarea",
+                        "tip": "描述",
+                        "rule": {
+                            "require": true
+                        }
+                    },
+                    
+                    
+                    "items": {
+                        "title": "模块二左边图片",
+                        "value": [
+                            {
+                                "alt": "01",
+                                "image": "http://demo.tonpal.com/WMTB20200017/assets/picture/company_intr_img.jpg",
+                                "link":""
+                            },
+                            {
+                                "alt": "02",
+                                "image": "http://demo.tonpal.com/WMTB20200017/assets/picture/company_intr_img.jpg",
+                                "link":""
+                            }
+                        ],
+                        "type": "array",
+                        "item": {
+                            "alt": {
+                                "title": "图片alt",
+                                "value": "",
+                                "type": "text",
+                                "tip": "图片alt",
+                                "rule": {
+                                    "require": true
+                                }
+                            },
+                            "image": {
+                                "title": "图片",
+                                "value": "",
+                                "type": "image",
+                                "tip": "建议425*356",
+                                "rule": {
+                                    "require": true
+                                }
+                            },
+                            "link": {
+                                "title": "链接",
+                                "value": "",
+                                "type": "text",
+                                "tip": "请填入相应链接",
+                                "rule": {
+                                    "require": true
+                                }
+                            }
+                        },
+                        "tip": "建议三组数据",
+                        "maxNumber": 3,
+                        "rule": {
+                            "require": true
+                        }
+                    },
+                    "subitems": {
+                        "title": "模块二右边图片",
+                        "value": [
+                            {
+                                "alt": "01",
+                                "image": "http://demo.tonpal.com/WMTB20200017/assets/picture/company_intr_img_01.jpg",
+                                "link":""
+                            },
+                            {
+                                "alt": "02",
+                                "image": "http://demo.tonpal.com/WMTB20200017/assets/picture/company_intr_img_02.jpg",
+                                "link":""
+                            },
+                            {
+                                "alt": "03",
+                                "image": "http://demo.tonpal.com/WMTB20200017/assets/picture/company_intr_img_03.jpg",
+                                "link":""
+                            }
+                        ],
+                        "type": "array",
+                        "subitem": {
+                            "alt": {
+                                "title": "图片alt",
+                                "value": "",
+                                "type": "text",
+                                "tip": "图片alt",
+                                "rule": {
+                                    "require": true
+                                }
+                            },
+                            "image": {
+                                "title": "图片",
+                                "value": "",
+                                "type": "image",
+                                "tip": "建议610*451",
+                                "rule": {
+                                    "require": true
+                                }
+                            },
+                            "link": {
+                                "title": "链接",
+                                "value": "",
+                                "type": "text",
+                                "tip": "请填入相应链接",
+                                "rule": {
+                                    "require": true
+                                }
+                            }
+                        },
+                        "tip": "建议三组数据",
+                        "maxNumber": 3,
+                        "rule": {
+                            "require": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "name": "video配置文件",
+    "action": "portal/video",
+    "description": "video配置文件",
+    "order": 6.0,
+    "more": {
+        "vars": {
+            "seoTitle": {
+                "title": "seo title",
+                "value": "",
+                "type": "text",
+                "tip": "title",
+                "rule": {
+                    "require": true
+                }
+            },
+            "seoDescription": {
+                "title": "seo Description",
+                "value": "",
+                "type": "text",
+                "tip": "Description",
+                "rule": {
+                    "require": true
+                }
+            },
+            "seoKeywords": {
+                "title": "seo Keywords",
+                "value": "",
+                "type": "text",
+                "tip": "Keywords",
+                "rule": {
+                    "require": true
+                }
+            },
+            "title": {
+                "title": "标题",
+                "type": "text",
+                "value": "",
+                "tip": "标题",
+                "rule": {
+                    "require": true
+                }
+            },
+            "item": {
+                "title": "video列表",
+                "type": "array",
+                "value": [
+                    {
+                        "iframe": "<iframe width='100%' height='100%' src='https://www.youtube.com/embed/2cH5htm6T4E' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+                        "title": "video1"
+                    },
+                    {
+                        "iframe": "<iframe width='100%' height='100%' src='https://www.youtube.com/embed/2cH5htm6T4E' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+                        "title": "video2"
+                    },
+                    {
+                        "iframe": "<iframe width='100%' height='100%' src='https://www.youtube.com/embed/2cH5htm6T4E' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+                        "title": "video3"
+                    },
+                    {
+                        "iframe": "<iframe width='100%' height='100%' src='https://www.youtube.com/embed/2cH5htm6T4E' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+                        "title": "video4"
+                    },
+                    {
+                        "iframe": "<iframe width='100%' height='100%' src='https://www.youtube.com/embed/2cH5htm6T4E' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+                        "title": "video5"
+                    },
+                    {
+                        "iframe": "<iframe width='100%' height='100%' src='https://www.youtube.com/embed/2cH5htm6T4E' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+                        "title": "视频6"
+                    }
+                ],
+                "item": {
+                    "iframe": {
+                        "title": "iframe链接",
+                        "type": "text",
+                        "value": "",
+                        "rule": {
+                            "require": true
+                        }
+                    },
+                    "title": {
+                        "title": "描述",
+                        "type": "text",
+                        "value": "",
+                        "rule": {
+                            "require": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

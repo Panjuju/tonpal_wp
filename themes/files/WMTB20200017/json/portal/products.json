@@ -1,0 +1,72 @@
+{
+    "name": "products配置文件",
+    "action": "portal/products",
+    "description": "products配置文件",
+    "order": 6.0,
+    "more": {
+        "vars": {
+            "seoTitle": {
+                "title": "seo title",
+                "value": "",
+                "type": "text",
+                "tip": "title",
+                "rule": {
+                    "require": true
+                }
+            },
+            "downloadBtn": {
+                "title": "详情页的下载pdf按钮",
+                "type": "text",
+                "value": "Download instructions",
+                "tip": "eg:Download instructions",
+                "rule": {
+                    "require": true
+                }
+            },
+            "inquiryBtn": {
+                "title": "详情页的信息按钮",
+                "type": "text",
+                "value": "Send Inquiry Now",
+                "tip": "eg:Send Inquiry Now",
+                "rule": {
+                    "require": true
+                }
+            },
+            "seoDescription": {
+                "title": "seo Description",
+                "value": "",
+                "type": "text",
+                "tip": "Description",
+                "rule": {
+                    "require": true
+                }
+            },
+            "seoKeywords": {
+                "title": "seo Keywords",
+                "value": "",
+                "type": "text",
+                "tip": "Keywords",
+                "rule": {
+                    "require": true
+                }
+            },
+            
+            "image": {
+                "title": "背景图片",
+                "value": "http://demo.tonpal.com/WMTB20200017/assets/picture/banner01.jpg",
+                "type": "image",
+                "tip": "图片",
+                "rule": {
+                    "require": true
+                }
+            },
+            
+            "subtitle": {
+                "title": "标题下",
+                "type": "text",
+                "value": "Product:Bathroom Robe Hook Material:Zinc+Sta",
+                "tip": ""
+            }
+        }
+    }
+}

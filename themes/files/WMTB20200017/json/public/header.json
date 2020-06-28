@@ -1,0 +1,163 @@
+{
+    "name": "header配置文件",
+    "action": "public/header",
+    "description": "header配置文件",
+    "order": 6.0,
+    "more": {
+        "vars": {
+            "头部logo": {
+                "title": "头部logo",
+                "value": "http://demo.tonpal.com/WMTB20200017/assets/picture/logo.png",
+                "type": "image",
+                "tip": "请选择logo",
+                "rule": {
+                    "require": true
+                }
+            },
+            
+            "relatedProducts": {
+                "title": "相关产品提示语",
+                "type": "text",
+                "value": "RELATED PRODUCTS",
+                "tip": "eg:RELATED PRODUCTS",
+                "rule": {
+                    "require": true
+                }
+            },
+            "image": {
+                "title": "背景图片",
+                "value": "https://q.zvk9.com/25060/2019/09/27/banner.jpg",
+                "type": "image",
+                "tip": "图片",
+                "rule": {
+                    "require": true
+                }
+            },
+            "sendimage": {
+                "title": "表单背景图",
+                "value": "http://demo.tonpal.com/WMTB20200017/assets/picture/banner01.jpg",
+                "type": "image",
+                "tip": "",
+                "rule": {
+                    "require": true
+                }
+            },
+            "icon": {
+                "title": "页面标签前icon",
+                "value": "https://i.loli.net/2020/06/24/4gXmj1kRPeFoBE8.png",
+                "type": "image",
+                "tip": "",
+                "rule": {
+                    "require": true
+                }
+            },
+            
+            "keyWord": {
+                "title": "SEO优化关键词",
+                "value": "",
+                "type": "text",
+                "tip": "需要优化特定的关键词"
+            },
+            "searchTip": {
+                "title": "搜索提示",
+                "type": "text",
+                "value": "YOU CAN SEARCH HERE...",
+                "tip": "eg: Start Typing...",
+                "rule": {
+                    "require": true
+                }
+            },
+            "searchSlogan": {
+                "title": "搜索标语",
+                "type": "text",
+                "value": "Hit enter to search or ESC to close",
+                "tip": "eg: Hit enter to search or ESC to close",
+                "rule": {
+                    "require": true
+                }
+            },
+            "singleTags": {
+                "title": "详情Tags名称",
+                "type": "text",
+                "value": "TAGS",
+                "tip": "eg:TAGS",
+                "rule": {
+                    "require": true
+                }
+            },
+            
+            "tagReadMoreBtn": {
+                "title": "tag页按钮",
+                "type": "text",
+                "value": "Read More",
+                "tip": "eg:Read More",
+                "rule": {
+                    "require": true
+                }
+            },
+            "sendMessageTitle": {
+                "title": "询盘标题",
+                "type": "text",
+                "value": "LEAVE YOUR MESSAGES",
+                "tip": "eg:LEAVE YOUR MESSAGES",
+                "rule": {
+                    "require": true
+                }
+            },
+            "sendMessageBtn": {
+                "title": "询盘按钮",
+                "type": "text",
+                "value": "SEND MESSAGE",
+                "tip": "eg:SEND MESSAGE",
+                "rule": {
+                    "require": true
+                }
+            },
+            "sendMessagePlaName": {
+                "title": "询盘提示name",
+                "type": "text",
+                "value": "name",
+                "tip": "eg:name",
+                "rule": {
+                    "require": true
+                }
+            },
+            "sendMessagePlaDesc": {
+                "title": "询盘desc",
+                "type": "text",
+                "value": "casUHUiuasicasiocjo",
+                "tip": "eg:edsc",
+                "rule": {
+                    "require": true
+                }
+            },
+            "sendMessagePlaEmail": {
+                "title": "询盘提示email",
+                "type": "text",
+                "value": "email",
+                "tip": "eg:email",
+                "rule": {
+                    "require": true
+                }
+            },
+            "sendMessagePlaPhone": {
+                "title": "询盘提示phone",
+                "type": "text",
+                "value": "phone",
+                "tip": "eg:phone",
+                "rule": {
+                    "require": true
+                }
+            },
+            "sendMessagePlaContent": {
+                "title": "询盘提示content",
+                "type": "text",
+                "value": "message",
+                "tip": "eg:message",
+                "rule": {
+                    "require": true
+                }
+            }
+        }
+    }
+}
